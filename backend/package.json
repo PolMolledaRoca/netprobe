@@ -1,0 +1,20 @@
+{
+  "name": "netprobe-backend",
+  "version": "1.0.0",
+  "description": "API y motor de escaneo para NetProbe",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "ping": "^0.4.4",
+    "socket.io": "^4.7.5",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}

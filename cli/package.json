@@ -1,0 +1,15 @@
+{
+  "name": "netprobe-cli",
+  "version": "1.0.0",
+  "description": "CLI básica para lanzar escaneos NetProbe",
+  "bin": {
+    "netprobe": "index.js"
+  },
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "uuid": "^9.0.1"
+  }
+}
